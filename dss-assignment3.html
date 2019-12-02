@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html>
+<head>
+   <Title>Reg form</title>
+    <style>
+    tr{
+       font-weight: bold;
+        text-transform: capitalize;
+        color: black;
+       border-style:solid;
+       border-width: 1px;
+       padding-left: 20px;
+       padding-right: 20px;
+       padding-top: 20px;
+       padding-bottom: 20px;
+       display: inline-block;
+       background-color:tan
+        }
+    </style>
+</head>
+<body>
+<h1> Registration</h1> 
+  <form method="post" name="my name" action="process.php">
+  <table border="0" width="70"% align="left">
+   <tr>
+    <td>Name</td>
+	<td><input type="text" name="name"></td>
+   </tr>
+   <tr>
+    <td>email</td>
+    <td><input type="text" name="email"></td>
+   </tr>
+   <tr>
+     <td>Phone number</td>
+	 <td><input type="phone number" name="number"></td>
+   </tr>
+   <tr>
+    <td>Gender</td>
+	<td><input type="radio" name="gen" value="male" checked="checked">Male
+	    <input type="radio" name="gen" value="female">Female</td>
+	</tr>
+	  <td>Message</td>
+	  <td><textarea rows="5" node="msg" cols="30"></textarea></td>
+	 </tr>
+	 <tr>
+	  <td><input type="submit" value="register">
+	  <td><input type="reset" value="clear"></td>
+	 </tr>
+    </form>
+</table>
